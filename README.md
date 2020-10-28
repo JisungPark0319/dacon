@@ -1,8 +1,9 @@
 # dacon
 
 
-심리 성향 예측 AI 경진대회
-     - dacon 사이트에서 주최하는 분석대회
+심리 성향 예측 AI 경진대회 - dacon 사이트에서 주최하는 분석대회
+
+사이트 주소: https://www.dacon.io/competitions/official/235647/overview/
 
 진행 사항
  1. lightgbm 모듈을 사용하여 baseline 진행
@@ -19,6 +20,4 @@
       - 각 model의 성능은 기존 baseline에서 lightgbm으로만 측정했을때와 비슷하게 나온다.
       - ensemble하여 측정하여 제출하니 성능 기존에 비해 많이 향상되었다.
       - 각 모델 점수는 비슷하지만 ensemble을 통해 test data를 측정하여 성능이 향상된것으로 보인다.
-
-사이트 주소: https://www.dacon.io/competitions/official/235647/overview/
 
